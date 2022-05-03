@@ -29,7 +29,7 @@
                                                 <h4>Điện thoại di động</h4>
                                                 <p>SamSung, Apple, Xaomi, Motonola, LG, ...</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Tìm hiểu thêm</a>
+                                                    <a href="?controller=products&action=home">Tìm hiểu thêm</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -49,7 +49,7 @@
                                                 <h4>Máy tính bảng</h4>
                                                 <p>SamSung, Apple, Xaomi, ...</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Tìm hiểu thêm</a>
+                                                    <a href="?controller=tablets&action=home">Tìm hiểu thêm</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -57,19 +57,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="col-lg-6">
+                            <div class="col-lg-6">
                                 <div class="right-first-image">
                                     <div class="thumb">
                                         <div class="inner-content">
-                                            <h4>Đồng Hồ Thông Minh</h4>
+                                            <h4>LapTop</h4>
                                             <span>Kết nối cá nhân</span>
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
-                                                <h4>Đồng Hồ Thông Minh</h4>
+                                                <h4>LapTop</h4>
                                                 <p>SamSung, Apple, Xaomi, ...</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Tìm hiểu thêm</a>
+                                                    <a href="?controller=laptop&action=home">Tìm hiểu thêm</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <!-- <div class="col-lg-6">
                                 <div class="right-first-image">
                                     <div class="thumb">
                                         <div class="inner-content">

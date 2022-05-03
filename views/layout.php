@@ -60,18 +60,27 @@ https://templatemo.com/tm-571-hexashop
                             <li class="scroll-to-section"><a href="?controller=home&action=home" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="?controller=products&action=home">Điện thoại</a></li>
                             <li class="scroll-to-section"><a href="?controller=tablets&action=home">Máy Tính bảng</a></li>
+                            <li class="scroll-to-section"><a href="?controller=laptop&action=home">LapTop</a></li>
                             <?php } else if($controller == 'products') {?>
                                 <li class="scroll-to-section"><a href="?controller=home&action=home">Home</a></li>
                             <li class="scroll-to-section"><a href="?controller=products&action=home"  class="active">Điện thoại</a></li>
                             <li class="scroll-to-section"><a href="?controller=tablets&action=home">Máy Tính bảng</a></li>
+                            <li class="scroll-to-section"><a href="?controller=laptop&action=home">LapTop</a></li>
                             <?php } else if($controller == 'tablets') {?>
                             <li class="scroll-to-section"><a href="?controller=home&action=home" class="">Home</a></li>
                             <li class="scroll-to-section"><a href="?controller=products&action=home">Điện thoại</a></li>
                             <li class="scroll-to-section"><a href="?controller=tablets&action=home" class="active" >Máy Tính bảng</a></li>
+                            <li class="scroll-to-section"><a href="?controller=laptop&action=home">LapTop</a></li>
+                            <?php } else if($controller == 'laptop') {?>
+                            <li class="scroll-to-section"><a href="?controller=home&action=home" class="">Home</a></li>
+                            <li class="scroll-to-section"><a href="?controller=products&action=home">Điện thoại</a></li>
+                            <li class="scroll-to-section"><a href="?controller=tablets&action=home"  >Máy Tính bảng</a></li>
+                            <li class="scroll-to-section"><a href="?controller=laptop&action=home" class="active">LapTop</a></li>
                             <?php } else {?>
                             <li class="scroll-to-section"><a href="?controller=home&action=home" class="">Home</a></li>
                             <li class="scroll-to-section"><a href="?controller=products&action=home">Điện thoại</a></li>
                             <li class="scroll-to-section"><a href="?controller=tablets&action=home">Máy Tính bảng</a></li>
+                            <li class="scroll-to-section"><a href="?controller=laptop&action=home">LapTop</a></li>
                             <?php } ?>
                             <!-- <li class="submenu">
                                 <a href="javascript:;">Phụ Kiện</a>
