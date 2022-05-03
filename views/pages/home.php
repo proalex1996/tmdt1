@@ -77,7 +77,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="col-lg-6">
+                            <div class="col-lg-6">
                                 <div class="right-first-image">
                                     <div class="thumb">
                                         <div class="inner-content">
@@ -89,14 +89,14 @@
                                                 <h4>Phụ Kiện</h4>
                                                 <p>ây sạc, Cáp sạc, Sạc dự phòng, Tai nghe.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Tìm hiểu thêm</a>
+                                                    <a href="?controller=pk&action=home">Tìm hiểu thêm</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <img src="assets/images/baner-right-image-04.jpg">
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
