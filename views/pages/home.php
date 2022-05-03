@@ -57,7 +57,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <!-- <div class="col-lg-6">
                                 <div class="right-first-image">
                                     <div class="thumb">
                                         <div class="inner-content">
@@ -96,7 +96,7 @@
                                         <img src="assets/images/baner-right-image-04.jpg">
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

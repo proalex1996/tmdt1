@@ -5,22 +5,18 @@ class DetailController
   {
     $conn = new Db();
     $conn = $conn->getInstance();
- 
-    $sql = "SELECT masp,tensp, giaban  FROM sanpham WHERE maloai = 1 ";
+    $sql = "SELECT *  FROM sanpham WHERE masp = " . $_GET['productID'] . "";
     $result = $conn->query($sql);
     $params = $result->fetch_assoc();
-    // if ($result->num_rows > 0) {
-    //   while($row = $result->fetch_assoc()) {
-    //    echo "ten: " . $row["tensp"]. " - gia: " . $row["giaban"]. "<br>";
-    //   }
-    // } else {
-    //  echo "0 results";
-    // }
-    //$productModel = new Products($params['masp'],$params['tensp'],$params['giaban']);
-    //echo $productModel::$id;exit;
     require_once('views/details/index.php');
   }
-
-  
+  public function save()
+  {
+    
+    $conn = new Db();
+    $conn = $conn->getInstance();
+    $sql = "INSERT INTO temp(id,sl) VALUE(" . $_POST['custId'] . "," . $_POST['quantity'] . ")";
+    $result = $conn->query($sql);
+    header("Location:".$_SERVER['HTTP_REFERER']);
+  }
 }
-?>

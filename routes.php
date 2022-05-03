@@ -25,6 +25,10 @@
         // we need the model to query the database later in the controller
         $controller = new DetailController();
       break;
+      case 'cart':
+        // we need the model to query the database later in the controller
+        $controller = new CartController();
+      break;
     }
 
     $controller->{ $action }();
@@ -36,7 +40,8 @@
                       'home' => ['home','error'],
                       'products' => ['home','error'],
                       'tablets' => ['home','error'],
-                      'details' => ['home','error']);
+                      'details' => ['home','error','save'],
+                      'cart' => ['home','error','save']);
 
   if (array_key_exists($controller, $controllers)) {
     if (in_array($action, $controllers[$controller])) {

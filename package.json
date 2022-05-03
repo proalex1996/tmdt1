@@ -1,0 +1,7 @@
+{
+  "name": "php_mvc",
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "tata-js": "^0.1.5"
+  }
+}

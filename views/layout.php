@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <title>Hexa</title>
 
 
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 <!--
 
 TemplateMo 571 Hexashop
@@ -51,7 +52,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
+                        <a href="?controller=home&action=home" class="logo">
                             <img src="assets/images/logo.png">
                         </a>
                         <ul class="nav">
@@ -72,7 +73,7 @@ https://templatemo.com/tm-571-hexashop
                             <li class="scroll-to-section"><a href="?controller=products&action=home">Điện thoại</a></li>
                             <li class="scroll-to-section"><a href="?controller=tablets&action=home">Máy Tính bảng</a></li>
                             <?php } ?>
-                            <li class="submenu">
+                            <!-- <li class="submenu">
                                 <a href="javascript:;">Phụ Kiện</a>
                                 <ul>
                                     <li><a href="about.html">Sạc dự phòng</a></li>
@@ -81,7 +82,8 @@ https://templatemo.com/tm-571-hexashop
                                     <li><a href="contact.html">Dây sạc</a></li>
                                     <li><a href="contact.html">Đồng hồ thông minh</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
+                            <li class="scroll-to-section"><a href="?controller=cart&action=home">Giỏ hàng</a></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -96,60 +98,13 @@ https://templatemo.com/tm-571-hexashop
     </div>
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="first-item">
-                        <div class="logo">
-                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo">
-                        </div>
-                        <ul>
-                            <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
-                            <li><a href="#">hexashop@company.com</a></li>
-                            <li><a href="#">010-020-0340</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <h4>Shopping &amp; Categories</h4>
-                    <ul>
-                        <li><a href="#">Men’s Shopping</a></li>
-                        <li><a href="#">Women’s Shopping</a></li>
-                        <li><a href="#">Kid's Shopping</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><a href="#">Homepage</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h4>Help &amp; Information</h4>
-                    <ul>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Tracking ID</a></li>
-                    </ul>
-                </div>
+               
                 <div class="col-lg-12">
                     <div class="under-footer">
-                        <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved. 
+                        <p>Trường đại học Kĩ Thuật Công Nghệ Cần Thơ 
                         
-                        <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
-
-                        <br>Distributed By: <a href="https://themewagon.com" target="_blank" title="free & premium responsive templates">ThemeWagon</a></p>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                        </ul>
+                        <br>Nhóm Thực Hành Số: 19</a>
                     </div>
-                </div>
             </div>
         </div>
     </footer>
@@ -173,10 +128,9 @@ https://templatemo.com/tm-571-hexashop
     <script src="assets/js/slick.js"></script> 
     <script src="assets/js/lightbox.js"></script> 
     <script src="assets/js/isotope.js"></script> 
-    
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-                     
+    <script src="assets/js/customtoast.js"></script>
     <script>
 
         $(function() {

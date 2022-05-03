@@ -1,6 +1,5 @@
 <?php
    
-  
 ?>
 <div class="page-heading" id="top">
     <div class="container">
@@ -33,15 +32,13 @@
                while($row = $result->fetch_assoc()){
                ?>
                 <div class="col-lg-4">
-                <a href='?controller=details&action=home&productID=<?php echo $row['masp']?>'>
                     <div class="item">
                         
                         <div class="thumb">
                             <div class="hover-content">
                                 <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href='?controller=details&action=home&productID=<?php echo $row['masp']?>'><i class="fa fa-eye"></i></a></li>
+                                    <!-- <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li> -->
                                 </ul>
                             </div>
                             <img src="assets/images/men-01.jpg" alt="">
@@ -59,7 +56,7 @@
                                 <li><i class="fa fa-star"></i></li>
                             </ul> -->
                         </div>
-               </a>
+             
                    
                     </div>
                 </div>
