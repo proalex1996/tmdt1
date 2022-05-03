@@ -33,7 +33,9 @@
                while($row = $result->fetch_assoc()){
                ?>
                 <div class="col-lg-4">
+                <a href='?controller=details&action=home&productID=<?php echo $row['masp']?>'>
                     <div class="item">
+                        
                         <div class="thumb">
                             <div class="hover-content">
                                 <ul>
@@ -47,7 +49,7 @@
                         <div class="down-content">
                             <h4> <?=  $row['tensp'] ?></h4>
                             <span>
-                            <?= number_format( $row['giaban'])?> VND
+                            <?= number_format($row['giaban'])?> VND
                             </span>
                             <!-- <ul class="stars">
                                 <li><i class="fa fa-star"></i></li>
@@ -57,6 +59,8 @@
                                 <li><i class="fa fa-star"></i></li>
                             </ul> -->
                         </div>
+               </a>
+                   
                     </div>
                 </div>
                 <?php }}} ?>

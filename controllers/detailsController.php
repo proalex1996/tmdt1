@@ -18,7 +18,7 @@ class DetailController
     // }
     //$productModel = new Products($params['masp'],$params['tensp'],$params['giaban']);
     //echo $productModel::$id;exit;
-    require_once('views/products/index.php');
+    require_once('views/details/index.php');
   }
 
   
