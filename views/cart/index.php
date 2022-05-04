@@ -69,11 +69,11 @@ if ($params != null) {
                   <div class="row  justify-content-between">
                     <div class="col-auto col-md-7">
                       <div class="media flex-column flex-sm-row">
-                        <img class=" img-fluid" src="https://i.imgur.com/6oHix28.jpg" width="62" height="62">
+                        <img class=" img-fluid" src="assets/images/product/<?= $params['hinhanh']?>" width="62" height="62">
                         <div class="media-body  my-auto">
                           <div class="row ">
                             <div class="col-auto">
-                              <p class="mb-0"><b><?= $params['tensp'] ?></b></p>
+                              <p class="mb-0 ml-3"><b><?= $params['tensp'] ?></b></p>
                             </div>
                           </div>
                         </div>
