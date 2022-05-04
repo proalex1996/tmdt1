@@ -38,7 +38,7 @@
                                     <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li> -->
                                 </ul>
                             </div>
-                            <img src="assets/images/men-01.jpg" alt="">
+                            <img src="assets/images/LAPTOP/<?php echo $row['hinhanh'] ?>" alt="" height="234px">
                         </div>
                         <div class="down-content">
                             <h4> <?=  $row['tensp'] ?></h4>

@@ -6,10 +6,10 @@ class PkController
     $conn = new Db();
     $conn = $conn->getInstance();
  
-    $sql = "SELECT masp,tensp, giaban  FROM sanpham WHERE maloai = 6 ";
+    $sql = "SELECT *  FROM sanpham WHERE maloai = 6 ";
     $result = $conn->query($sql);
     $params = $result->fetch_assoc();
-    require_once('views/tablets/index.php');
+    require_once('views/pk/index.php');
   }
 
   

@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
     <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
-
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
@@ -123,7 +123,7 @@ https://templatemo.com/tm-571-hexashop
                     <div class="under-footer">
                         <p>Trường đại học Kĩ Thuật Công Nghệ Cần Thơ 
                         
-                        <br>Nhóm Thực Hành Số: 19</a>
+                        <br>Nhóm Thực Hành Số: 9</a>
                     </div>
             </div>
         </div>

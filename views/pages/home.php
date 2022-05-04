@@ -10,7 +10,7 @@
                                     <a href="#">Purchase Now!</a>
                                 </div>
                             </div>
-                            <img src="assets/images/left-banner-image.jpg" alt="">
+                            <img src="assets/images/bia1.jpg" alt="" height="793px">
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-01.jpg">
+                                        <img src="assets/images/biaden.jpg" height="380px">
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-02.jpg">
+                                        <img src="assets/images/biaden.jpg" height="380px">
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-03.jpg">
+                                        <img src="assets/images/biaden.jpg" height="380px">
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-04.jpg">
+                                        <img src="assets/images/biaden.jpg" height="380px">
                                     </div>
                                 </div>
                             </div>

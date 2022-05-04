@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row"> 
            <?php foreach($params as $param) {
                if ($result->num_rows > 0) {
                while($row = $result->fetch_assoc()){
@@ -38,7 +38,7 @@
                                     <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li> -->
                                 </ul>
                             </div>
-                            <img src="assets/images/men-01.jpg" alt="">
+                            <img src="assets/images/Cap/<?php echo $row['hinhanh'] ?>" alt="" height="234px">
                         </div>
                         <div class="down-content">
                             <h4> <?=  $row['tensp'] ?></h4>
